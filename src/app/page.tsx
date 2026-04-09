@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
-import LogoBar from '@/components/LogoBar'
+import PartnersCarousel from '@/components/PartnersCarousel'
 import Features from '@/components/Features'
 import AutomationSection from '@/components/AutomationSection'
 import DesignSection from '@/components/DesignSection'
@@ -14,7 +14,7 @@ export default function Home() {
     <main className="bg-bg text-vs-text overflow-x-hidden">
       <Navbar />
       <Hero />
-      <LogoBar />
+      <PartnersCarousel />
       <Features />
       <AutomationSection />
       <DesignSection />
